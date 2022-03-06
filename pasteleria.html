@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EAT ME</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="img/eat-me.png" alt="Logo Eat me">
+
+  <p>"Si quieres hacer un pastel de manzana desde el principio, primero debes crear el Universo." <br>
+    —  Carl Sagan</p>
+  
+  <hr>
+  <br><br>
+  <img class="foto" src="img/flores.png" alt="patel de flores">
+  <img class="foto" src="img/merengue.png" alt="pastel de merengue">
+
+  <h2>Pasteles</h2>
+  <table>
+    <tr>
+      <th>Sabor</th>
+      <th>$</th>
+    </tr>
+    <tr>
+      <td>chocolate</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>manzana</td>
+      <td>400</td>
+    </tr>
+    <tr>
+      <td>red velvet</td>
+      <td>300</td>
+    </tr>
+    <tr>
+      <td>vainilla</td>
+      <td>200</td>
+    </tr>
+  </table>
+
+  <br>
+  <h3>Combinados</h3>
+  <table>
+    <tr>
+      <th>Sabores</th>
+      <th>$</th>
+    </tr>
+    <tr>
+      <td>red velvet - vainilla</td>
+      <td>270</td>
+    </tr>
+    <tr>
+      <td>chocolate - manzana</td>
+      <td>420</td>
+    </tr>
+  </table>
+  <br>
+  <h3>Adornos</h3>
+  <table>
+    <tr>
+      <th>Toppings</th>
+      <th>$</th>
+    </tr>
+    <tr>
+      <td>flores y frutos</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>merengue</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+
+  <hr>
+  <br>
+    <!-- Formularios -->
+    <h2>Pedido</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ila">
+        <br><br>
+        <label for="tel">Teléfono:</label>
+        <input type="tel" id="tel" name="tel" placeholder="5555555555" maxlength="10">
+        <br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="ila@dominio.com">        
+        <br><br>
+        <h3>Sabores de pastel</h3>
+        <label for=chocolate">chocolate</label>
+        <input type="checkbox" id="chocolate" name="chocolate">
+        <br>
+        <label for="manzana">manzana</label>
+        <input type="checkbox" id="manzana" name="manzana">
+        <br>
+        <label for="red velvet">red velvet</label>
+        <input type="checkbox" id="red velvet" name="red velvet">
+        <br>
+        <label for="vainilla">vainilla</label>
+        <input type="checkbox" id="vainilla" name="vainilla">
+        <br><br>
+        <h3>Adornos</h3>
+        <label for="frutos">Dorado</label>
+        <input type="checkbox" id="frutos" name="frutos">
+        <br>
+        <label for="merengue">Gris</label>
+        <input type="checkbox" id="merengue" name="merengue">
+        <br><br>
+    </form>
+
+    <a href="./pedido.html">
+      <input type="button" value="Hacer pedido">
+    </a>
+    <hr>
+    <br>
+    <p>Dirección: Coyoacán, Ciudad de México.</p>
+    <p>Teléfono: 55 5555 5555.</p>
+    <p>Horario: Jueves a lunes de 11am a 8pm.</p>
+
+    <footer>
+      <p><small>© 2022 Derechos Reservados a EAT ME.</small></p>
+    </footer>
+</body>
+</html>
